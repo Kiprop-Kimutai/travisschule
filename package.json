@@ -1,6 +1,6 @@
 {
   "name": "travisschule",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "learn travis CI",
   "main": "app.js",
   "scripts": {
