@@ -12,7 +12,7 @@ describe('Array', function(){
 describe('Array', function() {
 	describe('#indexOf()', () =>{
 		it('should return true when size of array matches', () =>{
-			expect(([1,2,3,4].length).to.equal([1,2,3,4].length));
+			expect([1,2,3,4].length).to.equal([1,2,3,4].length);
 		});
 	});
 });
