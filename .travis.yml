@@ -1,8 +1,15 @@
 language: node_js
 node_js:
-  - "stable"
+- stable
 install:
-  - npm install
+- npm install
 cache:
   directories:
-  - "node_modules"
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: aTwFgxo5UoO/D8hRcSt9L7jUpYP4675Yi7tuwYIzBVNxfouzaJvernEEPdwioarrsXFDmjBSx31x3Rh/xpnn8O6EqO8cq2rop0XqPvu7NkSWWBcvP8LlQRgzTPgm+elX5+1aRpuE1FzS5EwYeCcp9W+l1eNrB0/qsHTEC7MtCv27xtV+ZU40Jz77dlDaRnHNmYPVpn2lq+z92kjZYe6zLMcYUcSTgYZNeQ4G2v9IXGcqZY2vSFNtiI4sRb/B83+MjLhsfRWpw7wBqp7QRWZGp8vQHFQ8mJwVPoeGQkNcpdOT5BaNSE1vC0j6uKvFCcLOp1634A7thoY1u0a5wmYG4gUnsfep/bmCoeimIGpgcKWmcLG/dVj/AuQ6v6o7sunrlzCa1YhdJuIMTiY8vOL51aHgVneHiP4Tie+0YgM63zxsp0ulPcs3NOnCFdxZwE6yw2loKo9IdWc0A/sw7KOrisGz+lRXU+JMn4Z2xY0PC4G5LDnRScZre/ot+QrawT448464yHfkheb7SpWixnFrnfA9/NjI7IdCZM5pKum65Qtud3f9ZhsCHhWYD33b4Db9GANy3DSFGw/D8VYWRLdYEYSI++osUWkFQEIKuPuUlXJC5WlNHC1uVDlPMbXplphYu8W4+w20+bQjBc08d4uJj4cF4FCC4xRaxUQDoSMpxT8=
+  app:
+    master: travisschule
+    testbed: travisschule-testbed
