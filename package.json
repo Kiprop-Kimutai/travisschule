@@ -1,0 +1,27 @@
+{
+  "name": "travisschule",
+  "version": "1.0.0",
+  "description": "learn travis CI",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "test",
+    "npm"
+  ],
+  "author": "KIM J",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {}
+}
